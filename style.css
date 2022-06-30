@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200;1,500&family=Literata:wght@200;300&display=swap');
+:root{
+    --blue1:rgb(11,72,117);
+    --blue2:rgb(95,143,183);
+    --blue3:rgb(215, 238, 255);
+    --beige1:rgb(232,225,217);
+    --beige2:rgb(217,188,184);
+    --beige3:rgb(195,172,180);
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Literata";
+    background-color: var(--beige1);
+}
+h2,h1{
+    font-weight: bold;
+    color: var(--beige3);
+}
+nav{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.logo-div{
+    background-color:var(--beige1) ;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+.logo-div img {
+    width: 270px;
+    height:100%;
+}
+.main-page-div{
+    display: flex;
+    gap: 30px;
+}
+.first-part-div{
+    padding: 2%;
+    margin-left: 5%;
+    flex: 0.55;
+    background-color: var(--blue3);
+}
+.second-part-div{
+    background-color: var(--blue3);
+    flex: 2;
+    text-align: center;
+}
+.third-part-div{
+    
+    margin-right: 5%;
+    flex: 0.5;
+}
+.log-in-div{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blue3);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 10px;
+}
+.events-div{
+    margin-top: 15%;
+    padding: 2%;
+    background-color:var(--blue3);
+    
+}
+.events-div h2{
+    font-size: 0.9em;
+    text-align: center;
+}
+.log-in-div h3{
+    margin: 7% 0;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.log-in-div a{
+    margin-bottom: 8%;
+    text-decoration: none;
+}
+.log-in-div button{
+    border: none;
+    padding: 10px 21px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.log-in-div input{
+    border: none;
+    padding: 7px 0;
+    border-radius: 20px;
+}
+.log-in-div input::placeholder{
+    text-align: center;
+}
+.log-in-div a:hover{
+    border-bottom: 2px solid ;
+}
+.client_div{
+    background-color: green;
+
+}
+.client{
+    color: green;
+}
